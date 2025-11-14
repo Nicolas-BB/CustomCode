@@ -4,10 +4,24 @@ export default function Main() {
     return (
         <main>
             <section className={styles.heroSection}>
-                <div className={styles.titleContainer}>
-                    <h1>CUSTOM CODE</h1>
-                    <span>DANDO FORMA A IDEIAS</span>
-                </div>
+                <h1>CUSTOM CODE<br /><span>DANDO FORMA A IDEIAS</span></h1>
+            </section>
+            <section className={styles.aboutSection}>
+                <p>
+                    SOMOS UMA EQUIPE QUE TEM COMO FOCO DAR <span>VIDA</span> ÀS SUAS IDEIAS, CRIAR <span>PÁGINAS</span>, SITES <span>COMPLETOS</span>, <span>APLICATIVOS</span> E <span>MUITO MAIS</span>!
+                </p>
+            </section>
+            <section className={styles.clientsSection}>
+                <h2>CLIENTES<br /><span>SATISFEITOS</span></h2>
+                <div className={styles.clientsContainer}></div>
+            </section>
+            <section className={styles.techSection}>
+                <h2>TECNOLOGIAS<br /><span>DOMINADAS</span></h2>
+                <div className={styles.techContainer}></div>
+            </section>
+            <section className={styles.contactSection}>
+                <h2>ENTRAR<br /><span>EM CONTATO</span></h2>
+                <div className={styles.contactContainer}></div>
             </section>
         </main>
     )

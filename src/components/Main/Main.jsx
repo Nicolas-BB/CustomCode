@@ -1,3 +1,4 @@
+import PrimaryButton from '../utils/Button.jsx'
 import styles from '../../styles/main.module.css'
 
 export default function Main() {
@@ -21,7 +22,9 @@ export default function Main() {
             </section>
             <section className={styles.contactSection}>
                 <h2>ENTRAR<br /><span>EM CONTATO</span></h2>
-                <div className={styles.contactContainer}></div>
+                <div className={styles.contactContainer}>
+                    <PrimaryButton href={'#'}>Quero meu site!</PrimaryButton>
+                </div>
             </section>
         </main>
     )

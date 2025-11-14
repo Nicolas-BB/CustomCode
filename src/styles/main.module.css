@@ -110,3 +110,10 @@
     color: var(--cor-principal);
     font-family: var(--fonte-2);
 }
+
+.contactContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

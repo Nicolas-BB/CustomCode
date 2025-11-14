@@ -1,5 +1,7 @@
+import styles from '../../styles/footer.module.css'
+
 export default function Footer() {
     return (
-        <h1>Footer</h1>
+        <footer className={styles.footer}>Custom Code 2025</footer>
     )
 }

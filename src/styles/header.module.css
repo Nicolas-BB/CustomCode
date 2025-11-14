@@ -46,3 +46,11 @@
     content: "/>";
     color: var(--cor-texto-1);
 }
+
+.logo {
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -12,7 +12,7 @@ gsap.registerPlugin(useGSAP,ScrollTrigger,SplitText);
 export default function Main() {
     useGSAP(() => {
         ScrollTrigger.create({
-            
+
         })
     })
 

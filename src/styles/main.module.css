@@ -15,6 +15,7 @@
     font-family: var(--fonte-1);
     color: var(--cor-principal);
     line-height: 0.8;
+    z-index: 1;
 }
 
 .heroSection span {

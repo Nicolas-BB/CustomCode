@@ -1,9 +1,24 @@
-import PrimaryButton from '../utils/Button.jsx'
+import PrimaryButton from '../utils/Buttons.jsx'
+import FluidCursor from '../utils/FluidCursor.jsx'
 import styles from '../../styles/main.module.css'
 
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { SplitText } from "gsap/SplitText";
+
+gsap.registerPlugin(useGSAP,ScrollTrigger,SplitText);
+
 export default function Main() {
+    useGSAP(() => {
+        ScrollTrigger.create({
+            
+        })
+    })
+
     return (
         <main>
+            {/* <FluidCursor /> */}
             <section className={styles.heroSection}>
                 <h1>CUSTOM CODE<br /><span>DANDO FORMA A IDEIAS</span></h1>
             </section>

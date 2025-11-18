@@ -41,7 +41,7 @@ export default function Main() {
             {
                 top: '2dvh',
                 scale: 1,
-                duration: 1
+                duration: 1,
             },
             0
         )

@@ -21,9 +21,7 @@ export default function Main() {
             trigger: '#content',
             start: 'top top',
             end: '+=600',
-            // markers: true,
             pin: true,
-            // pinSpacing: false
         })
 
         const tl = gsap.timeline({

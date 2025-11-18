@@ -2,6 +2,7 @@
   "name": "customcode",
   "private": true,
   "version": "0.0.0",
+  "homepage": "gttps://Nicolas-BB.github.io/CustomCode",
   "type": "module",
   "scripts": {
     "dev": "vite",

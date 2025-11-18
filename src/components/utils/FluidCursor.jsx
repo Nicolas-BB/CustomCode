@@ -7,7 +7,7 @@ const FluidCursor = () => {
     fluidCursor();
   }, []);
   return (
-    <div className={styles.fluid}>
+    <div id='fluid-container' className={styles.fluid}>
       <canvas id="fluid" />
     </div>
   );

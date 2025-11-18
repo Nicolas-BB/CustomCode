@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cor-neutra-2);
 }
 
 .heroSection h1 {
@@ -31,7 +30,6 @@
     display: flex;
     align-items: center;
     justify-items: center;
-    background-color: var(--cor-neutra-2);
     padding: 0px 10dvw;
     color: var(--cor-texto-1);
     font-size: 5rem;
@@ -49,7 +47,6 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-neutra-2);
     padding: 20dvh 10dvw;
 }
 
@@ -72,7 +69,6 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-neutra-2);
     padding: 20dvh 10dvw;
 }
 
@@ -95,7 +91,6 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-neutra-2);
     padding: 20dvh 10dvw;
 }
 
@@ -119,13 +114,25 @@
     justify-content: center;
 }
 
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    background-color: var(--cor-neutra-1);
+}
+
 /* Animação */
 
 .animationContainer {
     width: 100dvw;
     height: 100dvh;
-    position: fixed;
-    z-index: 5;
+    position: relative;
+    z-index: 10;
 }
 
 .logo {

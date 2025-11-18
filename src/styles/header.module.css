@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 10dvw;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+
+.header nav {
+    width: 100%;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ul a {
+    font-size: 1.25rem;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.ul li {
+    transition: all 0.2s ease;
+}
+
+.ul li:hover {
+    scale: 1.15;
+}
+
+.ul li:hover>a {
+    color: var(--cor-principal);
+}
+
+.ul a::before {
+    content: "<";
+    color: var(--cor-texto-1);
+}
+
+.ul a::after {
+    content: "/>";
+    color: var(--cor-texto-1);
+}

@@ -1,0 +1,11 @@
+.fluid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.fluid canvas {
+    width: 100dvw;
+    height: 100dvh;
+}

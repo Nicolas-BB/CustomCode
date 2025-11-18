@@ -34,7 +34,7 @@
     scale: 1.15;
 }
 
-.ul li:hover > a {
+.ul li:hover>a {
     color: var(--cor-principal);
 }
 
@@ -46,23 +46,4 @@
 .ul a::after {
     content: "/>";
     color: var(--cor-texto-1);
-}
-
-.logo {
-    width: 60px;
-    position: absolute;
-}
-
-.div1 {
-    width: 50dvw;
-    height: 100dvh;
-    position: absolute;
-    background-color: var(--cor-texto-1);
-}
-
-.div2 {
-    width: 50dvw;
-    height: 100dvh;
-    position: absolute;
-    background-color: var(--cor-texto-1);
 }
